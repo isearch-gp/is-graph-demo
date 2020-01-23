@@ -406,7 +406,7 @@ function updateState(graphId, nodeId, msg, parents) {
         value: msg,
     };
 
-		console.log("pre-load fix? #1 no");
+		console.log("pre-load fix? #3");
     if (nodeId == "m1") {
         node.fixed = true;
         node.x = sRadius + 0;

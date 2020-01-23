@@ -13,13 +13,14 @@
 .legend {
     position: absolute;
     opacity: 0;
-    /*** ***/
+    /*** 
     padding-top: 20px;
     max-width: 570px;
+     ***/
     /*** ***/
-    /***
     padding-top: 70px;
-    ***/
+    max-width: 570px;
+    /*** ***/
 }
 
 .legend pre {
@@ -39,9 +40,11 @@
     background-color: #eee;
     border: 1px solid #ddd;
 */
+    /**
     width: 100px;
     left: 0px;
     cursor: pointer;
+    **/
 }
 
 .networkNode circle {
