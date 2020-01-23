@@ -13,11 +13,13 @@
 .legend {
     position: absolute;
     opacity: 0;
-    /***
+    /*** ***/
     padding-top: 20px;
     max-width: 570px;
-    ***/
+    /*** ***/
+    /***
     padding-top: 70px;
+    ***/
 }
 
 .legend pre {

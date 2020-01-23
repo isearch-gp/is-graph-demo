@@ -406,24 +406,24 @@ function updateState(graphId, nodeId, msg, parents) {
         value: msg,
     };
 
-		console.log("pre-load fix? #1");
+		console.log("pre-load fix? #1 no");
     if (nodeId == "m1") {
         node.fixed = true;
         node.x = sRadius + 0;
         node.y = sRadius - 30;
     }
-    else if (nodeId == "m4") {
-    //if (nodeId == "m4") {
+    //else if (nodeId == "m4") {
+    if (nodeId == "m4") {
         node.fixed = true;
         node.x = sRadius + 0;
         node.y = sRadius + 30;
     }
-/*** ***/
+/*** 
     else {
         node.x = 0;
         node.y = 0;
     }
-/*** ***/
+***/
 
     graph[graphId].nodes.push(node);
     graph[graphId].nodeMap[nodeId] = node;
