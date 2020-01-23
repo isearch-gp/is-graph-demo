@@ -6074,6 +6074,7 @@ ul.et_pb_side_nav .side_nav_item a.active {
 }
 
 /* Basic Styles */
+/***
 @font-face {
 	font-family: "ETmodules";
 	src: url("core/admin/fonts/modules.eot");
@@ -6081,6 +6082,7 @@ ul.et_pb_side_nav .side_nav_item a.active {
 	font-weight: normal;
 	font-style: normal;
 }
+***/
 
 * {
 	-webkit-box-sizing: border-box;
