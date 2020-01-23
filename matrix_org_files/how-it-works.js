@@ -100,6 +100,7 @@ var steps = [
 ];
 
 function unveil() {
+	  console.log("unveil() unveiled =", unveiled);
     if (unveiled) return;
     var $e = $("#diagram");
     if ($e.length == 0) return;
@@ -117,6 +118,7 @@ function unveil() {
 }
 
 $(window).on("scroll.unveil resize.unveil lookup.unveil", unveil);
+consol.log("after window.on(unveil)");
 unveil();
 
 function initNetwork() {
