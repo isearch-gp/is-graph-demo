@@ -8124,22 +8124,6 @@ p.et_pb_contact_field {
 	transition: color 300ms ease 0s;
 }
 
-.et_pb_facebook_icon:before {
-	content: "\e093";
-}
-
-.et_pb_twitter_icon:before {
-	content: "\e094";
-}
-
-.et_pb_google_icon:before {
-	content: "\e096";
-}
-
-.et_pb_linkedin_icon:before {
-	content: "\e09d";
-}
-
 .et_pb_member_social_links span {
 	display: none;
 }
@@ -8672,11 +8656,7 @@ p.et_pb_contact_field {
 .et_pb_testimonial:before,
 .et_pb_toggle_title:before,
 .et_overlay:before,
-#et_search_icon:before,
 .mobile_menu_bar:before,
-.et-social-icon a:before,
-.et_pb_social_icon a.icon:before,
-.et_pb_font_icon:before,
 .et_audio_container .mejs-playpause-button button:before,
 .et_audio_container .mejs-volume-button button:before,
 #et-info-phone:before,
@@ -9681,58 +9661,6 @@ li.et_pb_social_icon a span {
 }
 
 /* Icons */
-.et-social-facebook a.icon:before {
-	content: "\e093";
-}
-
-.et-social-twitter a.icon:before {
-	content: "\e094";
-}
-
-.et-social-google-plus a.icon:before {
-	content: "\e096";
-}
-
-.et-social-pinterest a.icon:before {
-	content: "\e095";
-}
-
-.et-social-linkedin a.icon:before {
-	content: "\e09d";
-}
-
-.et-social-tumblr a.icon:before {
-	content: "\e097";
-}
-
-.et-social-instagram a.icon:before {
-	content: "\e09a";
-}
-
-.et-social-skype a.icon:before {
-	content: "\e0a2";
-}
-
-.et-social-flikr a.icon:before {
-	content: "\e0a6";
-}
-
-.et-social-myspace a.icon:before {
-	content: "\e0a1";
-}
-
-.et-social-dribbble a.icon:before {
-	content: "\e09b";
-}
-
-.et-social-youtube a.icon:before {
-	content: "\e0a3";
-}
-
-.et-social-vimeo a.icon:before {
-	content: "\e09c";
-}
-
 .et-social-rss a.icon:before {
 	content: "\e09e";
 }
