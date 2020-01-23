@@ -1,0 +1,15 @@
+JQuery files are misleading
+
+jquery.js = 
+jquery_002.js = magnific_popup
+jquery_003.js = 
+jquery_004.js = FitVid
+jquery_005.js = PieChart
+jquery_006.js = mobile - keep for now
+
+Fonts
+both css.css and css_002.css load fonts and style.css uses them
+
+I removed the font call from style.css as it was needed for the legend to work
+
+
